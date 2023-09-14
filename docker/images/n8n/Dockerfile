@@ -1,6 +1,6 @@
 # Set the base image with the desired Node.js version
 ARG NODE_VERSION=18.17.1
-FROM n8nio/base:${NODE_VERSION}
+FROM n8nio:${NODE_VERSION}
 
 # Required build arguments
 ARG N8N_VERSION=1.6.1
